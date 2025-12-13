@@ -99,15 +99,29 @@
 .
 ├── CODE_OF_CONDUCT.md           # 社区行为准则，规范贡献者行为。
 ├── CONTRIBUTING.md              # 贡献指南，说明如何为本项目做出贡献。
+├── GEMINI.md                    # AI 助手的上下文文档，包含项目概述、技术栈和文件结构。
 ├── LICENSE                      # 开源许可证文件。
 ├── Makefile                     # 项目自动化脚本，用于代码检查、构建等。
 ├── README.md                    # 项目主文档，包含项目概览、使用指南、资源链接等。
 ├── .gitignore                   # Git 忽略文件。
+├── AGENTS.md                    # AI 代理相关的文档或配置。
 │
 ├── documents/                   # 存放各类说明文档、经验总结和配置详细说明。
 │   ├── auggie-mcp配置文档.md      # Augment 上下文引擎配置文档。
 │   ├── 代码组织.md                # 代码组织与结构相关文档。
 │   ├── ... (其他文档)
+│
+├── libs/                        # 通用库代码，用于项目内部模块化。
+│   ├── common/                  # 通用功能模块。
+│   │   ├── __init__.py          # Python 包初始化文件。
+│   │   ├── models/              # 模型定义。
+│   │   │   └── __init__.py
+│   │   └── utils/               # 工具函数。
+│   │       └── __init__.py
+│   ├── database/                # 数据库相关模块。
+│   │   └── .gitkeep             # 占位文件，确保目录被 Git 跟踪。
+│   └── external/                # 外部集成模块。
+│       └── .gitkeep             # 占位文件，确保目录被 Git 跟踪。
 │
 ├── prompts/                     # 集中存放所有类型的 AI 提示词。
 │   ├── assistant_prompts/       # 辅助类提示词。
