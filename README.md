@@ -94,7 +94,7 @@
 - [**augment**](https://app.augmentcode.com/)，它的上下文引擎和提示词优化按钮真的神中神中神，小白就用它就行了，点击按钮自动帮你写好提示词，懒人必备
 - [**cursor**](https://cursor.com/)，已经占领用户心智高地，人尽皆知
 - [**Windsurf**](https://windsurf.com/)，新用户有免费额度
-- [**GitHub Copilot**](https://github.com/features/copilot)，没用过
+- **GitHub Copilot**，没用过
 - [**kimik2**](https://www.kimi.com/)，国产，还行，干脏活写简单任务用，之前2r一个key，一周1024次调用挺爽
 - [**GLM**](https://bigmodel.cn/)，国产，听说很强，听说和 Claude Sonnet 4 差不多？
 - [**Qwen**](https://qwenlm.github.io/qwen-code-docs/zh/cli/)，国产阿里的，cli有免费额度
