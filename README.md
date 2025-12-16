@@ -639,6 +639,7 @@ telegram频道：https://t.me/tradecat_ai_channel
 <a href="https://x.com/0XBard_thomas">@0XBard_thomas</a> | 
 <a href="https://x.com/Pluvio9yte">@Pluvio9yte</a> | 
 <a href="https://x.com/xDinoDeer">@xDinoDeer</a>
+<a href="https://x.com/geekbb">@geekbb</a>
 </p>
 
 ---
