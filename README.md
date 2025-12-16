@@ -27,6 +27,34 @@
   <a href="https://github.com/tukuaiai/vibe-coding-cn"><img src="https://img.shields.io/github/languages/code-size/tukuaiai/vibe-coding-cn?style=for-the-badge" alt="代码大小"></a>
   <a href="https://github.com/tukuaiai/vibe-coding-cn/graphs/contributors"><img src="https://img.shields.io/github/contributors/tukuaiai/vibe-coding-cn?style=for-the-badge" alt="贡献者"></a>
   <a href="https://t.me/glue_coding"><img src="https://img.shields.io/badge/chat-telegram-blue?style=for-the-badge&logo=telegram" alt="交流群"></a>
+  <!-- 多语言入口 -->
+  <a href="./i18n/zh/README.md"><img src="https://img.shields.io/badge/lang-zh-red?style=for-the-badge" alt="简体中文"></a>
+  <a href="./i18n/en/README.md"><img src="https://img.shields.io/badge/lang-en-lightgrey?style=for-the-badge" alt="English"></a>
+  <a href="./i18n/ar/"><img src="https://img.shields.io/badge/lang-ar-brown?style=for-the-badge" alt="Arabic"></a>
+  <a href="./i18n/bn/"><img src="https://img.shields.io/badge/lang-bn-orange?style=for-the-badge" alt="Bengali"></a>
+  <a href="./i18n/de/"><img src="https://img.shields.io/badge/lang-de-black?style=for-the-badge" alt="Deutsch"></a>
+  <a href="./i18n/es/"><img src="https://img.shields.io/badge/lang-es-yellow?style=for-the-badge" alt="Español"></a>
+  <a href="./i18n/fa/"><img src="https://img.shields.io/badge/lang-fa-purple?style=for-the-badge" alt="Farsi"></a>
+  <a href="./i18n/fr/"><img src="https://img.shields.io/badge/lang-fr-blue?style=for-the-badge" alt="Français"></a>
+  <a href="./i18n/ha/"><img src="https://img.shields.io/badge/lang-ha-darkgreen?style=for-the-badge" alt="Hausa"></a>
+  <a href="./i18n/he/"><img src="https://img.shields.io/badge/lang-he-navy?style=for-the-badge" alt="Hebrew"></a>
+  <a href="./i18n/hi/"><img src="https://img.shields.io/badge/lang-hi-darkorange?style=for-the-badge" alt="Hindi"></a>
+  <a href="./i18n/id/"><img src="https://img.shields.io/badge/lang-id-teal?style=for-the-badge" alt="Bahasa Indonesia"></a>
+  <a href="./i18n/it/"><img src="https://img.shields.io/badge/lang-it-green?style=for-the-badge" alt="Italiano"></a>
+  <a href="./i18n/ja/"><img src="https://img.shields.io/badge/lang-ja-indigo?style=for-the-badge" alt="日本語"></a>
+  <a href="./i18n/ko/"><img src="https://img.shields.io/badge/lang-ko-slateblue?style=for-the-badge" alt="한국어"></a>
+  <a href="./i18n/ms/"><img src="https://img.shields.io/badge/lang-ms-seagreen?style=for-the-badge" alt="Bahasa Melayu"></a>
+  <a href="./i18n/nl/"><img src="https://img.shields.io/badge/lang-nl-darkred?style=for-the-badge" alt="Nederlands"></a>
+  <a href="./i18n/pl/"><img src="https://img.shields.io/badge/lang-pl-crimson?style=for-the-badge" alt="Polski"></a>
+  <a href="./i18n/pt/"><img src="https://img.shields.io/badge/lang-pt-darkslategray?style=for-the-badge" alt="Português"></a>
+  <a href="./i18n/ru/"><img src="https://img.shields.io/badge/lang-ru-steelblue?style=for-the-badge" alt="Русский"></a>
+  <a href="./i18n/sw/"><img src="https://img.shields.io/badge/lang-sw-forestgreen?style=for-the-badge" alt="Swahili"></a>
+  <a href="./i18n/ta/"><img src="https://img.shields.io/badge/lang-ta-darkmagenta?style=for-the-badge" alt="Tamil"></a>
+  <a href="./i18n/th/"><img src="https://img.shields.io/badge/lang-th-royalblue?style=for-the-badge" alt="ภาษาไทย"></a>
+  <a href="./i18n/tr/"><img src="https://img.shields.io/badge/lang-tr-firebrick?style=for-the-badge" alt="Türkçe"></a>
+  <a href="./i18n/uk/"><img src="https://img.shields.io/badge/lang-uk-cornflowerblue?style=for-the-badge" alt="Українська"></a>
+  <a href="./i18n/ur/"><img src="https://img.shields.io/badge/lang-ur-darkslateblue?style=for-the-badge" alt="Urdu"></a>
+  <a href="./i18n/vi/"><img src="https://img.shields.io/badge/lang-vi-darkgreen?style=for-the-badge" alt="Tiếng Việt"></a>
 </p>
 
 [📚 相关文档](#-相关文档与资源)
