@@ -70,7 +70,7 @@
   <a href="./i18n/zh/documents/实战案例/"><img src="https://img.shields.io/badge/🎬_实战案例-项目实操-orange?style=for-the-badge" alt="实战案例"></a>
   <a href="./i18n/zh/documents/常见坑汇总/"><img src="https://img.shields.io/badge/🕳️_常见坑-避坑指南-yellow?style=for-the-badge" alt="常见坑汇总"></a>
   <a href="./i18n/zh/documents/外部资源聚合/"><img src="https://img.shields.io/badge/📡_信息源-聚合-teal?style=for-the-badge" alt="信息源聚合"></a>
-  <a href="./libs/external/chat-vault/"><img src="https://img.shields.io/badge/🔐_Chat_Vault-AI会话数据库-gold?style=for-the-badge" alt="Chat Vault"></a>
+  <a href="./libs/external/chat-vault/"><img src="https://img.shields.io/badge/🔐_Chat_Vault-全部AI会话数据库-gold?style=for-the-badge" alt="Chat Vault"></a>
 </p>
 
 [📋 工具资源](#-器-工具与资源)
