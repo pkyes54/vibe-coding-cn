@@ -70,6 +70,38 @@ AI interpretation link for this repository: [zread.ai/tukuaiai/vibe-coding-cn](h
 
 ---
 
+## 🚀 Getting Started (Beginners)
+
+Complete beginner? Follow these steps in order:
+
+0. [00-Vibe Coding Philosophy](./documents/01-getting-started/00-Vibe%20Coding%20Philosophy.md) - Understand core concepts
+1. [01-Network Environment Configuration](./documents/01-getting-started/01-Network%20Environment%20Configuration.md) - Configure network access
+2. [02-Development Environment Setup](./documents/01-getting-started/02-Development%20Environment%20Setup.md) - Copy prompts to AI, let AI guide you
+3. [03-IDE Configuration](./documents/01-getting-started/03-IDE%20Configuration.md) - Configure VS Code editor
+
+---
+
+<details open>
+<summary><strong>🧬 Glue Coding</strong></summary>
+
+> **The Holy Grail and Silver Bullet of Software Engineering**
+
+Glue Coding is the ultimate evolution of Vibe Coding, potentially solving three fatal flaws:
+
+| Problem | Solution |
+|:---|:---|
+| 🎭 AI Hallucination | ✅ Only use verified mature code, zero hallucination |
+| 🧩 Complexity Explosion | ✅ Every module is a battle-tested wheel |
+| 🎓 High Barrier | ✅ You only need to describe "how to connect" |
+
+**Core Philosophy**: Copy instead of write, connect instead of create, reuse instead of reinvent.
+
+👉 [Learn more about Glue Coding](./documents/00-fundamentals/Glue%20Coding.md)
+
+</details>
+
+---
+
 ## 🖼️ Overview
 
 **Vibe Coding** is the ultimate workflow for AI pair programming, designed to help developers smoothly bring ideas to life. This guide details the entire process from project conception, technology selection, implementation planning to specific development, debugging, and expansion. It emphasizes **planning-driven** and **modularization** as the core, preventing AI from going out of control and leading to project chaos.
@@ -82,7 +114,7 @@ AI interpretation link for this repository: [zread.ai/tukuaiai/vibe-coding-cn](h
 
 The core of this philosophy is to build an AI system capable of **self-optimization**. Its recursive nature can be broken down into the following steps:
 
-> Further reading: [A Formalization of Recursive Self-Optimizing Generative Systems](./i18n/en/documents/Methodology%20and%20Principles/A%20Formalization%20of%20Recursive%20Self-Optimizing%20Generative%20Systems.md)
+> Further reading: [A Formalization of Recursive Self-Optimizing Generative Systems](./documents/00-fundamentals/A%20Formalization%20of%20Recursive%20Self-Optimizing%20Generative%20Systems.md)
 
 #### 1. Define Core Roles:
 
@@ -186,10 +218,10 @@ Through this continuous **recursive optimization loop**, the system achieves **s
 *   [**Third-party System Prompt Learning Library**](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools): For learning and referencing system prompts of other AI tools.
 *   [**Skills Maker**](https://github.com/yusufkaraaslan/Skill_Seekers): A tool for generating customized skills based on requirements.
 *   [**Meta-Prompts**](https://docs.google.com/spreadsheets/d/1ngoQOhJqdguwNAilCl1joNwTje7FWWN9WiI2bo5VhpU/edit?gid=1770874220#gid=1770874220): Advanced prompts for generating prompts.
-*   [**General Project Architecture Template**](./i18n/en/documents/Templates%20and%20Resources/General%20Project%20Architecture%20Template.md): Can be used to quickly set up standardized project directory structures.
-*   [**Meta-Skill: Skills of Skills**](./i18n/en/skills/claude-skills/SKILL.md): A meta-skill for generating skills.
-*   [**tmux Shortcut Cheatsheet**](./i18n/en/documents/Tutorials%20and%20Guides/tmux%20Shortcut%20Cheatsheet.md): Reference documentation for tmux shortcuts.
-*   [**LazyVim Shortcut Cheatsheet**](./i18n/en/documents/Tutorials%20and%20Guides/LazyVim%20Shortcut%20Cheatsheet.md): Reference documentation for LazyVim shortcuts.
+*   [**General Project Architecture Template**](./documents/04-resources/General%20Project%20Architecture%20Template.md): Can be used to quickly set up standardized project directory structures.
+*   [**Meta-Skill: Skills of Skills**](./skills/claude-skills/SKILL.md): A meta-skill for generating skills.
+*   [**tmux Shortcut Cheatsheet**](./documents/02-methodology/tmux%20Shortcut%20Cheatsheet.md): Reference documentation for tmux shortcuts.
+*   [**LazyVim Shortcut Cheatsheet**](./documents/02-methodology/LazyVim%20Shortcut%20Cheatsheet.md): Reference documentation for LazyVim shortcuts.
 *   [**Erge's Java Advanced Path**](https://javabetter.cn/): Contains detailed configuration tutorials for various development tools.
 *   [**Virtual Card**](https://www.bybit.com/cards/?ref=YDGAVPN&source=applet_invite): Can be used for registering cloud services and other scenarios requiring international payments.
 
@@ -211,23 +243,23 @@ It is recommended to only choose models from the first tier for complex tasks to
     *   [Telegram Group](https://t.me/glue_coding)
     *   [Telegram Channel](https://t.me/tradecat_ai_channel)
 *   **Personal Sharing**:
-    *   [My Learning Experience](./i18n/en/documents/Methodology%20and%20Principles/Learning%20Experience.md)
-    *   [Recommended Programming Books](./i18n/en/documents/Templates%20and%20Resources/Recommended%20Programming%20Books.md)
+    *   [My Learning Experience](./documents/02-methodology/Learning%20Experience.md)
+    *   [Recommended Programming Books](./documents/04-resources/Recommended%20Programming%20Books.md)
 *   **Core Resources**:
     *   [**Meta-Prompt Library**](https://docs.google.com/spreadsheets/d/1ngoQOhJqdguwNAilCl1joNwTje7FWWN9WiI2bo5VhpU/edit?gid=1770874220#gid=1770874220): A collection of advanced prompts for generating prompts.
-    *   [**Meta-Skill**](./i18n/en/skills/claude-skills/SKILL.md): A skill for generating skills.
+    *   [**Meta-Skill**](./skills/claude-skills/SKILL.md): A skill for generating skills.
     *   [**Skills Library**](./i18n/en/skills): A modular skill repository that can be directly integrated.
     *   [**Skill Generator**](https://github.com/yusufkaraaslan/Skill_Seekers): A tool to convert any material into agent-usable skills.
     *   [**Online Prompt Database**](https://docs.google.com/spreadsheets/d/1ngoQOhJqdguwNAilCl1joNwTje7FWWN9WiI2bo5VhpU/edit?gid=2093180351#gid=2093180351&range=A1): An online table containing hundreds of user and system prompts for various scenarios.
     *   [**Third-party System Prompt Repository**](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools): Gathers system prompts from various AI tools.
 *   **Internal Project Documentation**:
     *   [**prompts-library Tool Description**](./libs/external/prompts-library/): This tool supports converting prompts between Excel and Markdown formats, and includes hundreds of selected prompts.
-    *   [**coding_prompts Collection**](./i18n/en/prompts/coding_prompts/): Dedicated prompts for the Vibe Coding process.
-    *   [**System Prompt Construction Principles**](./i18n/en/documents/Methodology%20and%20Principles/System%20Prompt%20Construction%20Principles.md): A comprehensive guide on how to build efficient and reliable AI system prompts.
-    *   [**Development Experience Summary**](./i18n/en/documents/Methodology%20and%20Principles/Development%20Experience.md): Includes practical experience on variable naming, file structure, coding standards, and architectural principles.
-    *   [**General Project Architecture Template**](./i18n/en/documents/Templates%20and%20Resources/General%20Project%20Architecture%20Template.md): Provides standard directory structures and best practices for various project types.
-    *   [**Augment MCP Configuration Document**](./i18n/en/documents/Tutorials%20and%20Guides/auggie-mcp%20Configuration%20Document.md): Detailed configuration instructions for the Augment context engine.
-    *   [**system_prompts Collection**](./i18n/en/prompts/system_prompts/): System prompts used to guide AI development, including multiple versions of development specifications and thinking frameworks.
+    *   [**coding_prompts Collection**](./prompts/coding_prompts/): Dedicated prompts for the Vibe Coding process.
+    *   [**System Prompt Construction Principles**](./documents/00-fundamentals/System%20Prompt%20Construction%20Principles.md): A comprehensive guide on how to build efficient and reliable AI system prompts.
+    *   [**Development Experience Summary**](./documents/00-fundamentals/Development%20Experience.md): Includes practical experience on variable naming, file structure, coding standards, and architectural principles.
+    *   [**General Project Architecture Template**](./documents/04-resources/General%20Project%20Architecture%20Template.md): Provides standard directory structures and best practices for various project types.
+    *   [**Augment MCP Configuration Document**](./documents/02-methodology/auggie-mcp%20Configuration%20Document.md): Detailed configuration instructions for the Augment context engine.
+    *   [**system_prompts Collection**](./prompts/system_prompts/): System prompts used to guide AI development, including multiple versions of development specifications and thinking frameworks.
 
 ---
 
@@ -248,9 +280,11 @@ The core structure of this `vibe-coding-cn` project primarily revolves around kn
 ├── CLAUDE.md                    # Core behavioral guidelines or configuration for the AI assistant.
 │
 ├── i18n/en/documents/           # Stores various explanatory documents, experience summaries, and detailed configuration instructions.
-│   ├── Methodology and Principles/ # Methodologies and Principles
-│   ├── Templates and Resources/    # Templates and Resources
-│   └── Tutorials and Guides/       # Tutorials and Guides
+│   ├── 00-fundamentals/             # Core concepts and methodology
+│   ├── 01-getting-started/          # Getting started guides
+│   ├── 02-methodology/              # Tools and tutorials
+│   ├── 03-practice/                 # Practice projects
+│   └── 04-resources/                # Templates and resources
 │
 ├── libs/                        # General library code for internal project modularization.
 │   ├── common/                  # Common functional modules.
@@ -419,9 +453,9 @@ gantt
 
 ### 🆕 Absolute Beginner? Start Here!
 
-1. [01-Network Environment Configuration](./i18n/en/documents/Starting%20Vibe%20Coding%20from%20Scratch/01-Network%20Environment%20Configuration.md) - Configure network access
-2. [02-Development Environment Setup](./i18n/en/documents/Starting%20Vibe%20Coding%20from%20Scratch/02-Development%20Environment%20Setup.md) - Copy prompts to AI, let AI guide you through environment setup
-3. [03-IDE Configuration](./i18n/en/documents/Starting%20Vibe%20Coding%20from%20Scratch/03-IDE%20Configuration.md) - Configure VS Code editor
+1. [01-Network Environment Configuration](./documents/01-getting-started/01-Network%20Environment%20Configuration.md) - Configure network access
+2. [02-Development Environment Setup](./documents/01-getting-started/02-Development%20Environment%20Setup.md) - Copy prompts to AI, let AI guide you through environment setup
+3. [03-IDE Configuration](./documents/01-getting-started/03-IDE%20Configuration.md) - Configure VS Code editor
 
 ### Already have a development environment?
 
