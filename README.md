@@ -67,6 +67,7 @@
   <a href="./i18n/zh/documents/01-入门指南/README.md"><img src="https://img.shields.io/badge/🚀_从零开始-新手入门-red?style=for-the-badge" alt="从零开始"></a>
   <a href="./i18n/zh/documents/00-基础指南/语言层要素.md"><img src="https://img.shields.io/badge/📊_语言层要素-12层框架-gold?style=for-the-badge" alt="语言层要素"></a>
   <a href="./i18n/zh/documents/00-基础指南/常见坑汇总.md"><img src="https://img.shields.io/badge/🕳️_常见坑-避坑指南-yellow?style=for-the-badge" alt="常见坑汇总"></a>
+  <a href="./i18n/zh/documents/00-基础指南/强前置条件约束.md"><img src="https://img.shields.io/badge/🚫_硬约束-40条铁律-darkred?style=for-the-badge" alt="强前置条件约束"></a>
   <a href="./i18n/zh/documents/04-资源/外部资源聚合.md"><img src="https://img.shields.io/badge/📡_信息源-聚合-teal?style=for-the-badge" alt="信息源聚合"></a>
   <a href="./i18n/zh/documents/00-基础指南/A%20Formalization%20of%20Recursive%20Self-Optimizing%20Generative%20Systems.md"><img src="https://img.shields.io/badge/📐_元方法论-递归优化-darkorange?style=for-the-badge" alt="元方法论"></a>
   <a href="./i18n/zh/documents/00-基础指南/编程之道.md"><img src="https://img.shields.io/badge/🧭_编程之道-道法术-orange?style=for-the-badge" alt="编程之道"></a>
