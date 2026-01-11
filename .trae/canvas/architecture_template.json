@@ -1,0 +1,386 @@
+{
+  "version": "1.0",
+  "canvas_name": "系统架构设计",
+  "description": "用于可视化系统架构和模块依赖关系的 Canvas 白板模板",
+  "nodes": [
+    {
+      "id": "user-interface",
+      "type": "component",
+      "label": "用户界面层",
+      "description": "前端用户界面，包括 Web、移动端等",
+      "position": {
+        "x": 100,
+        "y": 50
+      },
+      "size": {
+        "width": 200,
+        "height": 100
+      },
+      "style": {
+        "backgroundColor": "#e3f2fd",
+        "borderColor": "#2196f3",
+        "borderWidth": 2
+      },
+      "metadata": {
+        "technology": "React/Vue/Flutter",
+        "status": "pending"
+      }
+    },
+    {
+      "id": "api-gateway",
+      "type": "component",
+      "label": "API 网关",
+      "description": "统一 API 入口，处理路由、认证、限流等",
+      "position": {
+        "x": 400,
+        "y": 50
+      },
+      "size": {
+        "width": 200,
+        "height": 100
+      },
+      "style": {
+        "backgroundColor": "#fff3e0",
+        "borderColor": "#ff9800",
+        "borderWidth": 2
+      },
+      "metadata": {
+        "technology": "Kong/Nginx",
+        "status": "pending"
+      }
+    },
+    {
+      "id": "core-services",
+      "type": "component",
+      "label": "核心服务层",
+      "description": "业务逻辑核心服务",
+      "position": {
+        "x": 700,
+        "y": 50
+      },
+      "size": {
+        "width": 200,
+        "height": 100
+      },
+      "style": {
+        "backgroundColor": "#f3e5f5",
+        "borderColor": "#9c27b0",
+        "borderWidth": 2
+      },
+      "metadata": {
+        "technology": "Node.js/Python/Go",
+        "status": "pending"
+      }
+    },
+    {
+      "id": "data-layer",
+      "type": "component",
+      "label": "数据层",
+      "description": "数据存储和管理",
+      "position": {
+        "x": 1000,
+        "y": 50
+      },
+      "size": {
+        "width": 200,
+        "height": 100
+      },
+      "style": {
+        "backgroundColor": "#e8f5e9",
+        "borderColor": "#4caf50",
+        "borderWidth": 2
+      },
+      "metadata": {
+        "technology": "PostgreSQL/MongoDB",
+        "status": "pending"
+      }
+    },
+    {
+      "id": "glue-layer",
+      "type": "component",
+      "label": "胶水层",
+      "description": "连接各个组件的胶水代码",
+      "position": {
+        "x": 400,
+        "y": 250
+      },
+      "size": {
+        "width": 500,
+        "height": 150
+      },
+      "style": {
+        "backgroundColor": "#fff9c4",
+        "borderColor": "#fbc02d",
+        "borderWidth": 3,
+        "borderStyle": "dashed"
+      },
+      "metadata": {
+        "components": [
+          "adapters",
+          "connectors",
+          "transformers"
+        ],
+        "status": "pending"
+      }
+    },
+    {
+      "id": "external-libs",
+      "type": "component",
+      "label": "外部库",
+      "description": "复用的外部库和组件",
+      "position": {
+        "x": 100,
+        "y": 450
+      },
+      "size": {
+        "width": 200,
+        "height": 100
+      },
+      "style": {
+        "backgroundColor": "#fce4ec",
+        "borderColor": "#e91e63",
+        "borderWidth": 2
+      },
+      "metadata": {
+        "location": "libs/external/github/",
+        "status": "pending"
+      }
+    },
+    {
+      "id": "auth-service",
+      "type": "component",
+      "label": "认证服务",
+      "description": "用户认证和授权",
+      "position": {
+        "x": 400,
+        "y": 450
+      },
+      "size": {
+        "width": 200,
+        "height": 100
+      },
+      "style": {
+        "backgroundColor": "#e0f7fa",
+        "borderColor": "#00bcd4",
+        "borderWidth": 2
+      },
+      "metadata": {
+        "technology": "OAuth2/JWT",
+        "status": "pending"
+      }
+    },
+    {
+      "id": "monitoring",
+      "type": "component",
+      "label": "监控和日志",
+      "description": "系统监控和日志收集",
+      "position": {
+        "x": 700,
+        "y": 450
+      },
+      "size": {
+        "width": 200,
+        "height": 100
+      },
+      "style": {
+        "backgroundColor": "#efebe9",
+        "borderColor": "#795548",
+        "borderWidth": 2
+      },
+      "metadata": {
+        "technology": "Prometheus/Grafana",
+        "status": "pending"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-1",
+      "source": "user-interface",
+      "target": "api-gateway",
+      "label": "HTTP/WebSocket",
+      "style": {
+        "strokeColor": "#666",
+        "strokeWidth": 2
+      }
+    },
+    {
+      "id": "edge-2",
+      "source": "api-gateway",
+      "target": "core-services",
+      "label": "REST/gRPC",
+      "style": {
+        "strokeColor": "#666",
+        "strokeWidth": 2
+      }
+    },
+    {
+      "id": "edge-3",
+      "source": "core-services",
+      "target": "data-layer",
+      "label": "SQL/NoSQL",
+      "style": {
+        "strokeColor": "#666",
+        "strokeWidth": 2
+      }
+    },
+    {
+      "id": "edge-4",
+      "source": "glue-layer",
+      "target": "api-gateway",
+      "label": "适配",
+      "style": {
+        "strokeColor": "#fbc02d",
+        "strokeWidth": 3,
+        "strokeStyle": "dashed"
+      }
+    },
+    {
+      "id": "edge-5",
+      "source": "glue-layer",
+      "target": "core-services",
+      "label": "连接",
+      "style": {
+        "strokeColor": "#fbc02d",
+        "strokeWidth": 3,
+        "strokeStyle": "dashed"
+      }
+    },
+    {
+      "id": "edge-6",
+      "source": "glue-layer",
+      "target": "external-libs",
+      "label": "复用",
+      "style": {
+        "strokeColor": "#e91e63",
+        "strokeWidth": 2,
+        "strokeStyle": "dotted"
+      }
+    },
+    {
+      "id": "edge-7",
+      "source": "auth-service",
+      "target": "api-gateway",
+      "label": "认证",
+      "style": {
+        "strokeColor": "#00bcd4",
+        "strokeWidth": 2
+      }
+    },
+    {
+      "id": "edge-8",
+      "source": "monitoring",
+      "target": "core-services",
+      "label": "监控",
+      "style": {
+        "strokeColor": "#795548",
+        "strokeWidth": 2,
+        "strokeStyle": "dotted"
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "group-1",
+      "label": "前端层",
+      "nodes": ["user-interface"],
+      "style": {
+        "backgroundColor": "#e3f2fd",
+        "borderColor": "#2196f3"
+      }
+    },
+    {
+      "id": "group-2",
+      "label": "后端层",
+      "nodes": ["api-gateway", "core-services", "glue-layer"],
+      "style": {
+        "backgroundColor": "#fff3e0",
+        "borderColor": "#ff9800"
+      }
+    },
+    {
+      "id": "group-3",
+      "label": "数据层",
+      "nodes": ["data-layer"],
+      "style": {
+        "backgroundColor": "#e8f5e9",
+        "borderColor": "#4caf50"
+      }
+    },
+    {
+      "id": "group-4",
+      "label": "支撑服务",
+      "nodes": ["auth-service", "monitoring", "external-libs"],
+      "style": {
+        "backgroundColor": "#f3e5f5",
+        "borderColor": "#9c27b0"
+      }
+    }
+  ],
+  "notes": [
+    {
+      "id": "note-1",
+      "content": "胶水层应该最小化代码量，专注于连接现有组件",
+      "position": {
+        "x": 400,
+        "y": 420
+      },
+      "style": {
+        "backgroundColor": "#fff9c4",
+        "borderColor": "#fbc02d"
+      }
+    },
+    {
+      "id": "note-2",
+      "content": "优先复用 libs/external/github/ 中的库",
+      "position": {
+        "x": 100,
+        "y": 570
+      },
+      "style": {
+        "backgroundColor": "#fce4ec",
+        "borderColor": "#e91e63"
+      }
+    }
+  ],
+  "legend": {
+    "items": [
+      {
+        "label": "前端组件",
+        "color": "#e3f2fd",
+        "borderColor": "#2196f3"
+      },
+      {
+        "label": "后端组件",
+        "color": "#fff3e0",
+        "borderColor": "#ff9800"
+      },
+      {
+        "label": "数据组件",
+        "color": "#e8f5e9",
+        "borderColor": "#4caf50"
+      },
+      {
+        "label": "胶水层",
+        "color": "#fff9c4",
+        "borderColor": "#fbc02d",
+        "borderStyle": "dashed"
+      },
+      {
+        "label": "外部库",
+        "color": "#fce4ec",
+        "borderColor": "#e91e63"
+      }
+    ]
+  },
+  "instructions": {
+    "title": "使用说明",
+    "steps": [
+      "1. 根据项目需求调整节点和连接",
+      "2. 更新每个节点的技术栈信息",
+      "3. 标记胶水层的职责范围",
+      "4. 确保所有依赖关系清晰可见",
+      "5. 验证架构符合胶水工程原则"
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+# Trae 统一开发环境配置文件
+
+# 项目基本信息
+project:
+  name: "NexusPMS"
+  description: "基于胶水工程的统一开发环境"
+  version: "1.0.0"
+
+# 知识库配置
+knowledge_base:
+  vibe_coding_cn:
+    path: "G:\Github\vibe-coding-cn"
+    enabled: true
+    sections:
+      - "i18n/zh/documents/"
+      - "i18n/zh/prompts/"
+      - "i18n/zh/workflow/"
+      - "i18n/zh/documents/03-实战/"
+
+# 工作流路由
+routing:
+  rules:
+    - name: "complex_architecture"
+      condition: "module_count > 5"
+      workflow: "canvas-dev"
+      priority: 1
+      
+    - name: "full_development"
+      condition: "needs_full_process"
+      workflow: "auto-dev-loop"
+      priority: 2
+      
+    - name: "quick_task"
+      condition: "simple_request"
+      workflow: "direct-execution"
+      priority: 3
+      
+    - name: "default"
+      condition: "always"
+      workflow: "direct-execution"
+      priority: 99
+
+# 工作流配置
+workflows:
+  canvas-dev:
+    enabled: true
+    description: "使用 Canvas 白板进行架构设计"
+    triggers:
+      - "复杂架构设计"
+      - "可视化依赖"
+      - "模块 > 5"
+    config:
+      canvas_path: ".trae/canvas/"
+      template: "architecture.json"
+      
+  auto-dev-loop:
+    enabled: true
+    description: "自动化开发循环（5步）"
+    triggers:
+      - "完整开发流程"
+      - "需要规范化开发"
+    config:
+      max_loops: 3
+      steps:
+        - "step1-problem-description"
+        - "step2-system-analysis"
+        - "step3-solution-design"
+        - "step4-integrity-check"
+        - "step5-review"
+      
+  direct-execution:
+    enabled: true
+    description: "直接执行任务"
+    triggers:
+      - "快速任务"
+      - "代码修改"
+      - "简单需求"
+
+# 胶水工程配置
+glue_engineering:
+  enabled: true
+  principles:
+    - "优先复用"
+    - "最小化代码"
+    - "架构驱动"
+    - "自动化验证"
+    - "持续优化"
+  external_libs:
+    path: "libs/external/github"
+    sources:
+      - "github.com"
+      - "npmjs.com"
+      - "pypi.org"
+
+# 状态管理
+state_management:
+  enabled: true
+  state_file: ".trae/state/current_state.json"
+  auto_save: true
+  backup_dir: ".trae/backups/"
+
+# 输出配置
+output:
+  format: "markdown"
+  include_sections:
+    - "任务总结"
+    - "生成文件"
+    - "验证结果"
+    - "下一步建议"
+    - "状态信息"
+  template: ".trae/templates/output_template.md"
+
+# 验证配置
+validation:
+  enabled: true
+  checks:
+    - "glue_engineering_principles"
+    - "canvas_consistency"
+    - "automated_tests"
+  fail_action: "retry"
+
+# 日志配置
+logging:
+  enabled: true
+  level: "info"
+  file: ".trae/logs/development.log"
+  max_size: "10MB"
