@@ -10,6 +10,8 @@
 
 <div align="center">
 
+[中文](./README.md) | [English](./i18n/en/README.md)
+
 # Vibe Coding 指南
 
 **一个通过与 AI 结对编程，将想法变为现实的终极工作站**
@@ -28,16 +30,10 @@
   <a href="https://t.me/glue_coding"><img src="https://img.shields.io/badge/聊天-Telegram-blue?style=for-the-badge&logo=telegram" alt="交流群"></a>
 </p>
 
-<!-- 多语言入口 -->
-<p>
-  <a href="./i18n/zh/README.md"><img src="https://img.shields.io/badge/语言-中文-red?style=for-the-badge" alt="简体中文"></a>
-  <a href="./i18n/en/README.md"><img src="https://img.shields.io/badge/语言-English-lightgrey?style=for-the-badge" alt="English"></a>
-  <a href="./i18n/README.md"><img src="https://img.shields.io/badge/🌐_更多语言-25+-blue?style=for-the-badge" alt="更多语言"></a>
-</p>
-
 <!-- 资源直达 - 按重要性分组 -->
 <!-- 🔴 核心理念 (红色系) -->
 <p>
+  <a href="./i18n/zh/documents/-01-哲学与方法论/README.md"><img src="https://img.shields.io/badge/🔮_哲学方法论-底层协议-purple?style=for-the-badge" alt="哲学与方法论"></a>
   <a href="./i18n/zh/documents/01-入门指南/00-Vibe%20Coding%20哲学原理.md"><img src="https://img.shields.io/badge/🧠_核心哲学-必读-crimson?style=for-the-badge" alt="核心哲学"></a>
   <a href="./i18n/zh/documents/00-基础指南/胶水编程.md"><img src="https://img.shields.io/badge/🧬_胶水编程-银弹-red?style=for-the-badge" alt="胶水编程"></a>
   <a href="./i18n/zh/documents/02-方法论/图形化AI协作-Canvas白板驱动开发.md"><img src="https://img.shields.io/badge/🎨_Canvas白板-图形驱动-orange?style=for-the-badge" alt="Canvas白板驱动开发"></a>
@@ -117,6 +113,7 @@
 1. [01-网络环境配置](./i18n/zh/documents/01-入门指南/01-网络环境配置.md) - 配置网络访问
 2. [02-开发环境搭建](./i18n/zh/documents/01-入门指南/02-开发环境搭建.md) - 复制提示词给 AI，让 AI 指导你搭建环境
 3. [03-IDE配置](./i18n/zh/documents/01-入门指南/03-IDE配置.md) - 配置 VS Code 编辑器
+4. [04-OpenCode-CLI配置](./i18n/zh/documents/01-入门指南/04-OpenCode-CLI配置.md) - 免费 AI CLI 工具，支持 GLM-4.7/MiniMax M2.1 等模型
 
 ---
 
@@ -178,6 +175,27 @@ Canvas方式：**代码 ⇄ 白板 ⇄ AI ⇄ 人类**，白板成为单一真�
 **核心突破**：AI 不再是孤立的，而是可以互相感知、通讯、控制的集群。
 
 👉 [深入了解AI蜂群协作](./i18n/zh/documents/02-方法论/AI蜂群协作-tmux多Agent协作系统.md)
+
+</details>
+
+<details open>
+<summary><strong>🔮 哲学方法论工具箱</strong></summary>
+
+> **把 Vibe 系统化为可验证、可迭代、可收敛的工程产出**
+
+23 种哲学方法论 + Python 工具 + 可复制提示词，覆盖：
+
+| 方法 | 用途 |
+|:---|:---|
+| 现象学还原 | 需求含糊时，清零脑补，回到可观察事实 |
+| 正反合 | 快速可用 → 反例打脸 → 收敛为工程版本 |
+| 可证伪主义 | 用测试逼出失败模式 |
+| 奥卡姆剃刀 | 删除不必要的复杂度 |
+| 贝叶斯更新 | 根据新证据动态调整信念 |
+
+**核心理念**：哲学不是空谈，是可落地的工程方法。
+
+👉 [深入了解哲学方法论工具箱](./i18n/zh/documents/-01-哲学与方法论/README.md)
 
 </details>
 
@@ -391,9 +409,10 @@ Canvas方式：**代码 ⇄ 白板 ⇄ AI ⇄ 人类**，白板成为单一真�
 │   ├── README.md                # 多语言索引
 │   ├── zh/                      # 中文主语料
 │   │   ├── documents/           # 文档库
-│   │   │   ├── 00-基础指南/     # 方法论与原则
+│   │   │   ├── -01-哲学与方法论/ # 最高思想纲领与方法论
+│   │   │   ├── 00-基础指南/     # 核心原则与底层逻辑
 │   │   │   ├── 01-入门指南/     # 从零开始教程
-│   │   │   ├── 02-方法论/       # 工具与技巧
+│   │   │   ├── 02-方法论/       # 具体工具与技巧
 │   │   │   ├── 03-实战/         # 项目实战案例
 │   │   │   └── 04-资源/         # 外部资源聚合
 │   │   ├── prompts/             # 提示词库
